@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/intentServiceButton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="220dp"
+        android:text="START INTENT SERVICE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressInPercentage" />
+
+    <Button
+        android:id="@+id/serviceButton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="220dp"
+        android:width="20dp"
+        android:height="10dp"
+        android:text="START SERVICE"
+        app:layout_constraintStart_toEndOf="@+id/intentServiceButton"
+        app:layout_constraintTop_toBottomOf="@+id/progressInPercentage" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:text="The Progress"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/progressInPercentage"
+        android:layout_width="154dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details.DetailsActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+
+    <ImageView
+        android:id="@+id/BackgroundImage"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_image" />
+
+    <ImageView
+        android:id="@+id/MainImage"
+        android:layout_width="172dp"
+        android:layout_height="264dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_image" />
+
+    <TextView
+        android:id="@+id/TitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/avengers_infinity_war"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/BackgroundImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ReleasedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/realeased"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_detailes"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/BackgroundImage"
+        app:layout_constraintTop_toBottomOf="@+id/TitleView" />
+
+    <TextView
+        android:id="@+id/DateReleased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/realeased_date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_detailes"
+        app:layout_constraintStart_toEndOf="@+id/ReleasedView"
+        app:layout_constraintTop_toBottomOf="@+id/TitleView" />
+
+    <TextView
+        android:id="@+id/Overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/overview"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_detailes"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BackgroundImage" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="336dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/description"
+        android:textSize="@dimen/text_size_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Overview" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="movieTrailer"
+        android:text="@string/movie_trailer"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/BackgroundImage"
+        app:layout_constraintTop_toBottomOf="@+id/ReleasedView" />
+
+</android.support.constraint.ConstraintLayout>

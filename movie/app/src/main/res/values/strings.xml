@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="avengers_infinity_war">Avengers: Infinity War</string>
+    <string name="realeased">Realeased:</string>
+    <string name="realeased_date">01-01-2018</string>
+    <string name="overview">Overview:</string>
+    <string name="description">As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. The fate of Earth and existence itself has never been more uncertain</string>
+    <string name="movie_trailer">MOVIE TRAILER</string>
+    <string name="menu_option_number_one">Open Async Task Activity</string>
+    <string name="menu_option_number_two">Open Thread Handler Activity</string>
+    <string name="menu_option_number_three">Open Background Service Activity</string>
+    <string name="start_button">Start</string>
+    <string name="create_button">Create</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="notification_message">%1$d %%</string>
+    <string name="notification_title">Downloading…</string>
+    <string name="channel_name">Default channel</string>
+    <string name="channel_description">It is a channel for default notifications</string>
+
+</resources>

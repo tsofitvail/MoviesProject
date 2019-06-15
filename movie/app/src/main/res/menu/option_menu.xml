@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="wrap_content"  android:layout_width="wrap_content">
+    <item android:id="@+id/asyncTask"
+        android:orderInCategory="1"
+        android:title="@string/menu_option_number_one"
+        app:showAsAction="never" />
+    <item android:id="@+id/threadHandler"
+        android:orderInCategory="2"
+        android:title="@string/menu_option_number_two"
+        app:showAsAction="never" />
+    <item android:id="@+id/bgService"
+        android:orderInCategory="3"
+        android:title="@string/menu_option_number_three"
+        app:showAsAction="never"/>
+</menu>
